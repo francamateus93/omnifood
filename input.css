@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body {
+body {
   color: #333;
   font-family: 'Rubik', sans-serif;
   font-weight: 1;
   font-weight: 400;
-  margin: 0;
-} */
+  /* margin: 0; */
+}
 
 html { 
   font-size: 62.5%;
@@ -133,11 +133,11 @@ transition-duration: 0.5s;
 }
 
 .heading-primary {
-  font-size: 6.2rem;
+  /* font-size: 6.2rem;
   font-weight: 700;
   line-height: 0.9;
   letter-spacing: -0.5px;
-  margin-bottom: 2.4rem;
+  margin-bottom: 2.4rem; */
 }
  
 .hero-description {
@@ -715,7 +715,7 @@ transition-duration: 0.5s;
 
 .adress {
   font-size: 1.6rem;
-  color: #777;
+  color: rgb(119, 119, 119);
 }
 
 .adress p,

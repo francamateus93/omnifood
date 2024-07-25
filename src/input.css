@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer component {
+  .bg-img-opacity {
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("https://hips.hearstapps.com/hmg-prod/images/ingredients-for-spring-vegetable-buddha-bowl-royalty-free-image-656873420-1558126238.jpg?crop=1.00xw:0.718xh;0,0.141xh&resize=1200:*"), linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.1)) ;
+  }
+
+  .container {
+    max-width: 130rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+  }
+}

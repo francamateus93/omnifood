@@ -610,10 +610,6 @@ video {
   margin-bottom: 6rem;
 }
 
-.mb-5{
-  margin-bottom: 1.25rem;
-}
-
 .mb-8{
   margin-bottom: 2rem;
 }
@@ -729,11 +725,6 @@ video {
   background-size: cover;
 }
 
-.px-40{
-  padding-left: 10rem;
-  padding-right: 10rem;
-}
-
 .px-48{
   padding-left: 12rem;
   padding-right: 12rem;
@@ -747,16 +738,6 @@ video {
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-}
-
-.py-40{
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-
-.py-32{
-  padding-top: 8rem;
-  padding-bottom: 8rem;
 }
 
 .py-24{
@@ -812,6 +793,11 @@ video {
   color: rgb(119 119 119 / var(--tw-text-opacity));
 }
 
+.text-\[\#EC8600\]{
+  --tw-text-opacity: 1;
+  color: rgb(236 134 0 / var(--tw-text-opacity));
+}
+
 .text-gray-700{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
@@ -820,23 +806,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\]{
-  color: ;
-}
-
-.text-\[\#\]{
-  color: #;
-}
-
-.text-\[\#EC\]{
-  color: #EC;
-}
-
-.text-\[\#EC8600\]{
-  --tw-text-opacity: 1;
-  color: rgb(236 134 0 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -872,6 +841,29 @@ video {
     max-width: 130rem;
     padding: 0 3.2rem;
     margin: 0 auto;
+  }
+
+  .subheading {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #EC8600;
+    text-transform: uppercase;
+    margin-bottom: 2.4rem;
+  }
+
+  .heading-secondary {
+    font-size: 3.6rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 4.8rem;
+  }
+
+  .heading-tertiary {
+    font-size: 3.0rem;
+    margin-bottom: 3.2rem;
+    letter-spacing: -0.5px;
+    margin-top: -5.8rem;
   }
 }
 

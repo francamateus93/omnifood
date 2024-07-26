@@ -14,4 +14,28 @@
     padding: 0 3.2rem;
     margin: 0 auto;
   }
+
+  .subheading {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #EC8600;
+    text-transform: uppercase;
+    margin-bottom: 2.4rem;
+  }
+  
+  .heading-secondary {
+    font-size: 3.6rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 4.8rem;
+  }
+
+  .heading-tertiary {
+    font-size: 3.0rem;
+    margin-bottom: 3.2rem;  
+    letter-spacing: -0.5px;
+    margin-top: -5.8rem;
+  }
+
 }

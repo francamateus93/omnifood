@@ -14,4 +14,10 @@
     padding: 0 3.2rem;
     margin: 0 auto;
   }
+  .transition-all{
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 0.4s;
+  }
+  
 }

@@ -11,6 +11,8 @@
 </head>
 
 <body class="bg-white text-gray-700 m-0 font-rubik">
+  
+  <!-- SECTION HEADER -->
   <section class="bg-img-opacity bg-cover h-[100vh] flex flex-col justify-center">
     <header class="flex justify-center gap-36 bg-transparent items-center mb-24">
       <a href="#how"><img src="img/logo.png" class="w-16" alt="logo-omnifood"></a>
@@ -25,18 +27,14 @@
           <li><a href="#pricing"
               class="transition-all hover:text-[#e67e22] active:text-[#e67e22] hover:font-medium">Pricing</a></li>
           <li><a href="#cta"
-              class="transition-all shadow-2xl active:text-[#e67e22] hover:font-medium hover:bg-[#cf711f] nav-link-btn bg-[#FF9000] py-2 px-5 rounded-lg">Try
-              now!</a></li>
+              class="transition-all shadow-2xl active:text-[#e67e22] hover:font-medium hover:bg-[#cf711f] nav-link-btn bg-[#FF9000] py-2 px-5 rounded-lg">Try now!</a></li>
         </ul>
       </nav>
     </header>
 
     <div class="flex flex-col justify-center items-center gap-5 px-48 text-white text-center">
-      <h1 class="text-7xl font-rubik font-bold tracking-tight">A helthy meal delivered to your door, every single day.
-      </h1>
-      <p class="text-xl leading-6">The smart 365 days per year food subscription that will make you eat healthy again.
-        <br>Tailored to your personal tastes and nutritional needs.
-      </p>
+      <h1 class="text-7xl font-rubik font-bold tracking-tight">A helthy meal delivered to your door, every single day.</h1>
+      <p class="text-xl leading-6">The smart 365 days per year food subscription that will make you eat healthy again.<br>Tailored to your personal tastes and nutritional needs. </p>
       <div class="flex gap-4 justify-center">
         <a href="#cta"
           class="inline-block py-2 px-5 text-lg font-semibold bg-[#FF9000] rounded-lg text-white hover:bg-[#cf711f] hover:scale-105">Start
@@ -48,6 +46,7 @@
     </div>
   </section>
 
+  <!-- SECTION HOW IT WORKS -->
   <section class="py-24" id="how">
     <div class="container">
       <span class="inline-block font-semibold text-lg text-[#EC8600] uppercase mb-6">How it Works</span>
@@ -99,10 +98,11 @@
     </div>
   </section>
 
+  <!-- SECTION MEALS -->
   <section class="section-meals pb-24" id="meals">
     <div class="container mb-16">
       <span class="subheading inline-block font-semibold text-lg text-[#EC8600] uppercase mb-6">Meals</span>
-      <h2 class="heading-secondary text-5xl font-bold">Omnifood AI chooses from +5,000 recipes</h2>
+      <h2 class="heading-secondary text-5xl font-bold tracking-tight">Omnifood AI chooses from +5,000 recipes</h2>
     </div>
 
     <div class="container grid grid-cols-3 gap-12">
@@ -169,6 +169,7 @@
     </div>
   </section>
 
+  <!-- SECTION GALLERY -->
   <section class="gallery-container max-w-[160rem] py-20 mx-auto" id="gallery">
     <div class="gallery grid grid-cols-3 gap-2">
       <div class="gallery-item overflow-hidden">
@@ -192,55 +193,54 @@
     </div>
   </section>
 
+  <!-- SECTION PRICING -->
   <section class="section-pricing pb-24" id="pricing">
     <div class="price-container container mb-10">
       <span class="subheading inline-block font-semibold text-lg text-[#EC8600] uppercase mb-6">Pricing</span>
-      <h2 class="heading-secondary">Eat well without breaking the bank</h2>
+      <h2 class="heading-secondary text-5xl font-bold tracking-tight">Eat well without breaking the bank</h2>
     </div>
 
-    <div class="container grid grid-2-cols">
-      <div class="pricing-plan grid-starter">
-        <p class="starter">Starter</p>
-        <p class="price-plan">$ <span class="dollar">399</span></p>
-        <p class="sub-price">per month. That's just <strong>
-            $13</strong> per meal!</p>
+    <div class="container grid grid-cols-2 gap-2">
+      <div class="pricing-plan justify-self-end rounded-2xl py-12 px-5 text-center items-center transition-all relative overflow-hidden shadow-2xl hover:scale-105">
+        <p class="starter font-semibold text-xl uppercase mb-5 text-[#EC8600]">Starter</p>
+        <p class="price-plan font-bold text-2xl">$ <span class="dollar uppercase items-center text-7xl font-bold">399</span></p><p class="sub-price text-sm text-[#9d9d9d] px-4 mb-4">per month. That's just <strong>$13</strong> per meal!</p>
         <ul class="pricing-list">
-          <div class="#">
-            <li class="price-item"><ion-icon class="diet-icon" name="checkmark-outline"></ion-icon><span>1 meal per
-                day</span></li>
-            <li class="price-item"><ion-icon class="diet-icon" name="checkmark-outline"></ion-icon><span>Order from 11am
-                to 9pm</span></li>
-            <li class="price-item"><ion-icon class="diet-icon" name="checkmark-outline"></ion-icon><span>Get acess to
-                all recipes</span></li>
+          <div class="# flex flex-col items-start px-4">
+            <li class="price-item flex items-center gap-3"><img src="/img/check.png" alt="check"
+              class="w-4"><span>1 meal per day</span></li>
+            <li class="price-item flex items-center gap-3"><img src="/img/check.png" alt="check"
+              class="w-4"><span>Order from 11am to 9pm</span></li>
+            <li class="price-item flex items-center gap-3"><img src="/img/check.png" alt="check"
+              class="w-4"><span>Get acess to all recipes</span></li>
           </div>
         </ul>
-        <div class="pricing-btn">
-          <a href="#cta" class="btn btn-start">Start eating well</a>
+        <div class="pricing-btn mt-5">
+          <a href="#cta" class="btn btn-start transition-all shadow-2xl active:text-[#e67e22] hover:font-medium hover:bg-[#cf711f] nav-link-btn bg-[#FF9000] py-3 px-6 rounded-lg text-white font-semibold ">Start eating well</a>
         </div>
       </div>
 
-      <div class="pricing-plan grid-complete">
-        <p class="starter">Complete</p>
-        <p class="price-plan">$ <span class="dollar">649</span></p>
-        <p class="sub-price">per month. That's just <strong>$11</strong> per meal!</p>
-        <ul class="pricing-list">
-          <div class="#">
-            <li class="price-item"><ion-icon class="diet-icon" name="checkmark-outline"></ion-icon><span><strong>2
-                  meals</strong> per day</span></li>
-            <li class="price-item"><ion-icon class="diet-icon" name="checkmark-outline"></ion-icon><span>Order
-                <strong>24/7</strong></span></li>
-            <li class="price-item"><ion-icon class="diet-icon" name="checkmark-outline"></ion-icon><span>Delivery is
-                <strong>Free</strong></span></li>
+      <div class="pricing-plan justify-self-end rounded-2xl py-12 px-5 text-center items-center transition-all relative overflow-hidden shadow-2xl hover:scale-105">
+        <p class="starter font-semibold text-xl uppercase mb-5 text-[#EC8600]">Complete</p>
+        <p class="price-plan font-bold text-2xl">$ <span class="dollar uppercase items-center text-7xl font-bold">649</span></p>
+        <p class="sub-price text-sm text-[#9d9d9d] px-4 mb-4">per month. That's just <strong>$11</strong> per meal!</p>
+        <ul class="pricing-list flex flex-col items-center gap-5 ">
+          <div class="# flex flex-col items-start px-4">
+            <li class="price-item flex items-center gap-3"><img src="/img/check.png" alt="check"
+              class="w-4"><span><span class="font-medium">2 meals </span> per day</span></li>
+            <li class="price-item flex items-center gap-3"><img src="/img/check.png" alt="check"
+              class="w-4"><span>Order <span class="font-medium">24/7</span></span></li>
+            <li class="price-item flex items-center gap-3"><img src="/img/check.png" alt="check"
+              class="w-4"><span>Delivery is <span class="font-medium">Free</span></span></li>
           </div>
         </ul>
-        <div class="pricing-btn">
-          <a href="#cta" class="btn btn-start">Start eating well</a>
+        <div class="pricing-btn mt-5">
+          <a href="#cta" class="btn btn-start transition-all shadow-2xl active:text-[#e67e22] hover:font-medium hover:bg-[#cf711f] nav-link-btn bg-[#FF9000] py-3 px-6 rounded-lg text-white font-semibold">Start eating well</a>
         </div>
       </div>
     </div>
 
     <div class="container">
-      <aside class="plan-details">Prices include all applicable taxes. You can cancel any time you want.</aside>
+      <aside class="text-center py-10 text-sm text-[#777] mb-10">Prices include all applicable taxes. You can cancel any time you want.</aside>
     </div>
 
     <div class="container grid grid-4-cols">
@@ -267,6 +267,7 @@
     </div>
   </section>
 
+  <!-- SECTION CTA -->
   <section class="section-cta" id="cta">
     <div class="cta-container">
       <div class="cta">
@@ -300,6 +301,7 @@
     </div>
   </section>
 
+  <!-- FOOTER -->
   <footer class="footer">
     <div class="container grid grid-5-cols">
       <div class="logo-col">

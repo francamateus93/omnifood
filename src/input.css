@@ -17,7 +17,17 @@
   .transition-all{
     transition-property: all;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
   }
   
+  /* .heading-secondary {
+    font-size: 8.6rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 4.8rem;
+  } */
+
+  .grid-complete {
+    justify-self: start;
+  }
 }

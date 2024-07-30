@@ -30,4 +30,8 @@
   .grid-complete {
     justify-self: start;
   }
+
+  .featured-icon {
+    color: #e67e22;
+  }
 }

@@ -6,6 +6,7 @@
   <meta charset=utf-8>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="shortcut icon" href="/img/logo_grey.png">
+  <script src="https://kit.fontawesome.com/f41a8859ed.js" crossorigin="anonymous"></script>
   <link href="./src/output.css" rel="stylesheet">
   <script type="module" src="/script.js"></script>
 </head>
@@ -48,7 +49,7 @@
 
   <!-- SECTION HOW IT WORKS -->
   <section class="py-24" id="how">
-    <div class="container">
+    <div class="container text-center">
       <span class="inline-block font-semibold text-lg text-[#EC8600] uppercase mb-6">How it Works</span>
       <h2 class="text-5xl font-bold">Your daily dose of health in 3 simple steps</h2>
     </div>
@@ -100,7 +101,7 @@
 
   <!-- SECTION MEALS -->
   <section class="section-meals pb-24" id="meals">
-    <div class="container mb-16">
+    <div class="container mb-16 text-center">
       <span class="subheading inline-block font-semibold text-lg text-[#EC8600] uppercase mb-6">Meals</span>
       <h2 class="heading-secondary text-5xl font-bold tracking-tight">Omnifood AI chooses from +5,000 recipes</h2>
     </div>
@@ -108,59 +109,43 @@
     <div class="container grid grid-cols-3 gap-12">
       <div class="meal-box rounded-3xl overflow-hidden transition-all shadow-2xl hover:translate-y-[-2rem]">
         <img src="img/meal-1.jpg" alt="japanese-gyozas" class="meal-img">
-        <div class="meal-container px-8 py-10">
+        <div class="meal-container p-8">
           <span
             class="tag text-md bg-[#51cf66] inline-block rounded-md py-1 px-3 uppercase font-medium">Vegetarian</span>
-          <p class="meal-tittle text-3xl font-semibold py-5">Japanese Gyozas</p>
-          <ul class="meal-list flex flex-col gap-4">
-            <li class="meal-atribute text-xl flex items-center gap-2"><img src="img/fire.png" alt="fire"
-                class="h-8"><span><strong>650</strong> calories</span></li>
-            <li class="meal-atribute text-xl flex items-center gap-2"><img src="img/nutri-score.png" alt="fire"
-                class="h-8"><span>NutriScore <strong>74</strong></span></li>
-            <li class="meal-atribute text-xl flex items-center gap-2"><img src="img/rating.png" alt="fire"
-                class="h-8"><span><strong>4.9</strong> rating (537)</span></li>
+          <p class="meal-tittle text-4xl font-semibold py-5">Japanese Gyozas</p>
+          <ul class="meal-list flex flex-col gap-4 text-[#777]">
+            <li class="meal-atribute text-2xl flex items-center gap-2"><i class="fa-solid fa-fire"></i><span><strong>650</strong> calories</span></li>
+            <li class="meal-atribute text-2xl flex items-center gap-2"><i class="fa-solid fa-heart-pulse"></i><span>NutriScore <strong>74</strong></span></li>
+            <li class="meal-atribute text-2xl flex items-center gap-2"><i class="fa-solid fa-star"></i><span><span><strong>4.9</strong> rating (537)</span></li>
           </ul>
         </div>
       </div>
 
       <div class="meal-box rounded-3xl overflow-hidden transition-all shadow-2xl hover:translate-y-[-2rem]">
         <img src="img/meal-2.jpg" alt="avocado-salad" class="meal-img">
-        <div class="meal-container px-8 py-10">
-          <span
-            class="tag-vegan text-md bg-[#00cca7] inline-block rounded-md py-1 px-3 uppercase font-medium">Vegan</span>
-          <p class="meal-tittle text-3xl font-semibold py-5">Avocado Salad</p>
-          <ul class="meal-list flex flex-col gap-4">
-            <li class="meal-atribute text-xl flex items-center gap-2"><img src="img/fire.png" alt="fire"
-                class="h-8"><strong>400</strong> calories</span></li>
-            <li class="meal-atribute text-xl flex items-center gap-2"><img src="img/nutri-score.png" alt="fire"
-                class="h-8"><span>NutriScore <strong>93</strong></span></li>
-            <li class="meal-atribute text-xl flex items-center gap-2"><img src="img/rating.png" alt="fire"
-                class="h-8"><span><strong>4.8</strong> rating (445)</span></li>
+        <div class="meal-container p-8">
+          <span class="tag-vegan text-md bg-[#00cca7] inline-block rounded-md py-1 px-3 uppercase font-medium">Vegan</span>
+          <p class="meal-tittle text-4xl font-semibold py-5">Avocado Salad</p>
+          <ul class="meal-list flex flex-col gap-4 text-[#777]">
+            <li class="meal-atribute text-2xl flex items-center gap-2"><i class="fa-solid fa-fire"></i><strong>400</strong> calories</span></li>
+            <li class="meal-atribute text-2xl flex items-center gap-2"><i class="fa-solid fa-heart-pulse"></i><span>NutriScore <strong>93</strong></span></li>
+            <li class="meal-atribute text-2xl flex items-center gap-2"><i class="fa-solid fa-star"></i><span><strong>4.8</strong> rating (445)</span></li>
           </ul>
         </div>
       </div>
 
       <div class="meal-container p-16 ">
-        <h3 class="meal-tittle text-3xl font-bold mb-5">Works with any diet</h3>
-        <ul class="diet-list meal-list flex flex-col gap-3 content-center text-xl">
-          <li class="diet-item text-xl flex items-center gap-4"><img src="/img/check.png" alt="check"
-              class="w-6"><span>Vegetarian</span></li>
-          <li class="diet-item text-xl flex items-center gap-4"><img src="/img/check.png" alt="check"
-              class="w-6"><span>Vegan</span></li>
-          <li class="diet-item text-xl flex items-center gap-4"><img src="/img/check.png" alt="check"
-              class="w-6"><span>Pescatarian</span></li>
-          <li class="diet-item text-xl flex items-center gap-4"><img src="/img/check.png" alt="check"
-              class="w-6"><span>Gluten-free</span></li>
-          <li class="diet-item text-xl flex items-center gap-4"><img src="/img/check.png" alt="check"
-              class="w-6"><span>Lactose-free</span></li>
-          <li class="diet-item text-xl flex items-center gap-4"><img src="/img/check.png" alt="check"
-              class="w-6"><span>Keto</span></li>
-          <li class="diet-item text-xl flex items-center gap-4"><img src="/img/check.png" alt="check"
-              class="w-6"><span>Paleo</span></li>
-          <li class="diet-item text-xl flex items-center gap-4"><img src="/img/check.png" alt="check"
-              class="w-6"><span>FoodMap</span></li>
-          <li class="diet-item text-xl flex items-center gap-4"><img src="/img/check.png" alt="check"
-              class="w-6"><span>Kid-friendly</span></li>
+        <h3 class="meal-tittle text-4xl font-bold mb-5">Works with any diet</h3>
+        <ul class="diet-list meal-list flex flex-col gap-5 content-center text-2xl text-[#777]">
+          <li class="diet-item flex items-center gap-4"><i class="fa-solid fa-circle-check" style="color:rgb(0, 192, 0)"></i><span>Vegetarian</span></li>
+          <li class="diet-item flex items-center gap-4"><i class="fa-solid fa-circle-check" style="color:rgb(0, 192, 0)"></i><span>Vegan</span></li>
+          <li class="diet-item flex items-center gap-4"><i class="fa-solid fa-circle-check" style="color:rgb(0, 192, 0)"></i><span>Pescatarian</span></li>
+          <li class="diet-item flex items-center gap-4"><i class="fa-solid fa-circle-check" style="color:rgb(0, 192, 0)"></i><span>Gluten-free</span></li>
+          <li class="diet-item flex items-center gap-4"><i class="fa-solid fa-circle-check" style="color:rgb(0, 192, 0)"></i><span>Lactose-free</span></li>
+          <li class="diet-item flex items-center gap-4"><i class="fa-solid fa-circle-check" style="color:rgb(0, 192, 0)"></i><span>Keto</span></li>
+          <li class="diet-item flex items-center gap-4"><i class="fa-solid fa-circle-check" style="color:rgb(0, 192, 0)"></i><span>Paleo</span></li>
+          <li class="diet-item flex items-center gap-4"><i class="fa-solid fa-circle-check" style="color:rgb(0, 192, 0)"></i><span>FoodMap</span></li>
+          <li class="diet-item flex items-center gap-4"><i class="fa-solid fa-circle-check" style="color:rgb(0, 192, 0)"></i><span>Kid-friendly</span></li>
         </ul>
       </div>
     </div>
@@ -170,7 +155,7 @@
   </section>
 
   <!-- SECTION GALLERY -->
-  <section class="gallery-container max-w-[160rem] py-20 mx-auto" id="gallery">
+  <section class="gallery-container max-w-[160rem] pb-20 mx-auto" id="gallery">
     <div class="gallery grid grid-cols-3 gap-2">
       <div class="gallery-item overflow-hidden">
         <img src="https://www.uab.edu/news/images/2018/Five_tips_Stream.jpg" class="gallery-img block transition-all hover:scale-110" alt="gallery img">
@@ -195,57 +180,57 @@
 
   <!-- SECTION PRICING -->
   <section class="section-pricing pb-24" id="pricing">
-    <div class="price-container container mb-10">
+    <div class="price-container container mb-10 text-center">
       <span class="subheading inline-block font-semibold text-lg text-[#EC8600] uppercase mb-6">Pricing</span>
       <h2 class="heading-secondary text-5xl font-bold tracking-tight">Eat well without breaking the bank</h2>
     </div>
 
-    <div class="container grid grid-cols-2 gap-2">
-      <div class="pricing-plan justify-self-end rounded-2xl py-12 px-5 text-center items-center transition-all relative overflow-hidden shadow-2xl hover:scale-105">
-        <p class="starter font-semibold text-xl uppercase mb-5 text-[#EC8600]">Starter</p>
-        <p class="price-plan font-bold text-2xl">$ <span class="dollar uppercase items-center text-7xl font-bold">399</span></p><p class="sub-price text-sm text-[#9d9d9d] px-4 mb-4">per month. That's just <strong>$13</strong> per meal!</p>
+    <div class="container grid grid-cols-2 gap-20 items-center justify-items-center">
+      <div class="pricing-plan justify-self-end rounded-2xl w-80 h-96 text-center transition-all overflow-hidden shadow-2xl hover:scale-105 flex flex-col items-center justify-center">
+        <div class="flex flex-col items-center justify-center p-4">
+        <p class="starter font-semibold text-xl uppercase mb-5 text-[#eb9a31]">Starter</p>
+        <p class="price-plan font-bold text-2xl">$ <span class="dollar uppercase items-center text-7xl font-semibold">399</span></p><p class="sub-price text-sm text-[#9d9d9d] px-4 mb-4">per month. That's just <strong>$13</strong> per meal!</p>
         <ul class="pricing-list">
           <div class="# flex flex-col items-start px-4">
-            <li class="price-item flex items-center gap-3"><img src="/img/check.png" alt="check"
-              class="w-4"><span>1 meal per day</span></li>
-            <li class="price-item flex items-center gap-3"><img src="/img/check.png" alt="check"
-              class="w-4"><span>Order from 11am to 9pm</span></li>
-            <li class="price-item flex items-center gap-3"><img src="/img/check.png" alt="check"
-              class="w-4"><span>Get acess to all recipes</span></li>
+            <li class="price-item flex items-center gap-3"><i class="fa-solid fa-check" style="color:rgb(0, 192, 0)"></i><span>1 meal per day</span></li>
+            <li class="price-item flex items-center gap-3"><i class="fa-solid fa-check" style="color:rgb(0, 192, 0)"></i><span>Order from 11am to 9pm</span></li>
+            <li class="price-item flex items-center gap-3"><i class="fa-solid fa-check" style="color:rgb(0, 192, 0)"></i><span>Get acess to all recipes</span></li>
           </div>
         </ul>
         <div class="pricing-btn mt-5">
           <a href="#cta" class="btn btn-start transition-all shadow-2xl active:text-[#e67e22] hover:font-medium hover:bg-[#cf711f] nav-link-btn bg-[#FF9000] py-3 px-6 rounded-lg text-white font-semibold ">Start eating well</a>
         </div>
       </div>
+      </div>
 
-      <div class="pricing-plan justify-self-end rounded-2xl py-12 px-5 text-center items-center transition-all relative overflow-hidden shadow-2xl hover:scale-105">
-        <p class="starter font-semibold text-xl uppercase mb-5 text-[#EC8600]">Complete</p>
-        <p class="price-plan font-bold text-2xl">$ <span class="dollar uppercase items-center text-7xl font-bold">649</span></p>
+      <div class="pricing-plan justify-self-start rounded-2xl w-80 h-96 text-center transition-all relative overflow-hidden shadow-2xl hover:scale-105 flex flex-col items-center justify-center">
+        <div class="flex flex-col items-center justify-center p-4 ">
+        <p class="starter font-semibold text-2xl uppercase mb-5 text-[#EC8600]">Complete</p>
+        <p class="price-plan font-bold text-2xl">$ <span class="dollar uppercase items-center text-7xl font-semibold">649</span></p>
         <p class="sub-price text-sm text-[#9d9d9d] px-4 mb-4">per month. That's just <strong>$11</strong> per meal!</p>
         <ul class="pricing-list flex flex-col items-center gap-5 ">
           <div class="# flex flex-col items-start px-4">
-            <li class="price-item flex items-center gap-3"><img src="/img/check.png" alt="check"
-              class="w-4"><span><span class="font-medium">2 meals </span> per day</span></li>
-            <li class="price-item flex items-center gap-3"><img src="/img/check.png" alt="check"
-              class="w-4"><span>Order <span class="font-medium">24/7</span></span></li>
-            <li class="price-item flex items-center gap-3"><img src="/img/check.png" alt="check"
-              class="w-4"><span>Delivery is <span class="font-medium">Free</span></span></li>
+            <li class="price-item flex items-center gap-3"><i class="fa-solid fa-check" style="color:rgb(0, 192, 0)"></i><span><span class="font-medium">2 meals </span> per day</span></li>
+            <li class="price-item flex items-center gap-3"><i class="fa-solid fa-check" style="color:rgb(0, 192, 0)"></i><span>Order <span class="font-medium">24/7</span></span></li>
+            <li class="price-item flex items-center gap-3"><i class="fa-solid fa-check" style="color:rgb(0, 192, 0)"></i><span>Delivery is <span class="font-medium">Free</span></span></li>
           </div>
         </ul>
         <div class="pricing-btn mt-5">
           <a href="#cta" class="btn btn-start transition-all shadow-2xl active:text-[#e67e22] hover:font-medium hover:bg-[#cf711f] nav-link-btn bg-[#FF9000] py-3 px-6 rounded-lg text-white font-semibold">Start eating well</a>
         </div>
+        </div>
       </div>
     </div>
 
     <div class="container">
-      <aside class="text-center py-10 text-sm text-[#777] mb-10">Prices include all applicable taxes. You can cancel any time you want.</aside>
+      <aside class="text-center pt-12 text-[#777] mb-10">Prices include all applicable taxes. You can cancel any time you want.</aside>
     </div>
+  </section>
 
-    <div class="container grid grid-4-cols">
+    <!-- SECTION FEATURE -->
+    <section class="container grid grid-cols-4">
       <div class="feature">
-        <ion-icon name="infinite-outline" class="feature-icons"></ion-icon>
+        <img src="img/infinity.png" alt="infinity" class="feature-icons h-10"></ion-icon>
         <p class="feature-title">Never cook again</p>
         <p class="feature-text">Our subscription cover 365 day per year, even including holidays.</p>
       </div>
@@ -264,8 +249,7 @@
         <p class="feature-title">Pause anytime</p>
         <p class="feature-text">Going on vacation? Just pause your subscription, and we refund unused days.</p>
       </div>
-    </div>
-  </section>
+    </section>
 
   <!-- SECTION CTA -->
   <section class="section-cta" id="cta">

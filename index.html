@@ -13,8 +13,8 @@
 
 <body class="bg-white text-gray-700 m-0 font-rubik">
   
-  <!-- SECTION HEADER -->
-  <section class="bg-img-opacity bg-cover h-[100vh] flex flex-col justify-center">
+  <!-- NAVBAR -->
+  <section class="bg-img bg-cover h-[100vh] flex flex-col justify-center">
     <header class="flex justify-center gap-36 bg-transparent items-center mb-24">
       <a href="#how"><img src="img/logo.png" class="w-16" alt="logo-omnifood"></a>
       <nav>
@@ -33,6 +33,8 @@
       </nav>
     </header>
 
+    <!-- SECTION HEADER -->
+  <main>
     <div class="flex flex-col justify-center items-center gap-5 px-48 text-white text-center">
       <h1 class="text-7xl font-rubik font-bold tracking-tight">A helthy meal delivered to your door, every single day.</h1>
       <p class="text-xl leading-6">The smart 365 days per year food subscription that will make you eat healthy again.<br>Tailored to your personal tastes and nutritional needs. </p>
@@ -54,6 +56,7 @@
       <h2 class="text-5xl font-bold">Your daily dose of health in 3 simple steps</h2>
     </div>
 
+    <!-- Row 1 -->
     <div class="container grid grid-cols-2 items-center gap-12">
       <div class="py-20">
         <p class=" text-[16rem] p-0 font-bold text-gray-300">01</p>
@@ -69,6 +72,7 @@
       </div>
     </div>
 
+    <!-- Row 2 -->
     <div class="container grid grid-cols-2 items-center gap-12">
       <div class="step-img-box flex items-center justify-center">
         <img src="https://omnifood.dev/img/app/app-screen-2.png" alt="iphone heatlh app"
@@ -83,6 +87,7 @@
       </div>
     </div>
 
+    <!-- Row 3 -->
     <div class="container grid grid-cols-2 items-center gap-12">
       <div class="pb-20">
         <p class="stemp-number text-[16rem] p-0 font-bold text-gray-300">03</p>
@@ -106,6 +111,7 @@
       <h2 class="heading-secondary text-5xl font-bold tracking-tight">Omnifood AI chooses from +5,000 recipes</h2>
     </div>
 
+    <!-- Col 1 -->
     <div class="container grid grid-cols-3 gap-12">
       <div class="meal-box rounded-3xl overflow-hidden transition-all shadow-2xl hover:translate-y-[-2rem]">
         <img src="img/meal-1.jpg" alt="japanese-gyozas" class="meal-img">
@@ -114,29 +120,31 @@
             class="tag text-md bg-[#51cf66] inline-block rounded-md py-1 px-3 uppercase font-medium">Vegetarian</span>
           <p class="meal-tittle text-4xl font-semibold py-5">Japanese Gyozas</p>
           <ul class="meal-list flex flex-col gap-4 text-[#777]">
-            <li class="meal-atribute text-2xl flex items-center gap-2"><i class="fa-solid fa-fire"></i><span><strong>650</strong> calories</span></li>
-            <li class="meal-atribute text-2xl flex items-center gap-2"><i class="fa-solid fa-heart-pulse"></i><span>NutriScore <strong>74</strong></span></li>
-            <li class="meal-atribute text-2xl flex items-center gap-2"><i class="fa-solid fa-star"></i><span><span><strong>4.9</strong> rating (537)</span></li>
+            <li class="meal-atribute text-xl flex items-center gap-2"><i class="fa-solid fa-fire"></i><span><strong>650</strong> calories</span></li>
+            <li class="meal-atribute text-xl flex items-center gap-2"><i class="fa-solid fa-heart-pulse"></i><span>NutriScore <strong>74</strong></span></li>
+            <li class="meal-atribute text-xl flex items-center gap-2"><i class="fa-solid fa-star"></i><span><span><strong>4.9</strong> rating (537)</span></li>
           </ul>
         </div>
       </div>
 
+      <!-- Col 2 -->
       <div class="meal-box rounded-3xl overflow-hidden transition-all shadow-2xl hover:translate-y-[-2rem]">
         <img src="img/meal-2.jpg" alt="avocado-salad" class="meal-img">
         <div class="meal-container p-8">
           <span class="tag-vegan text-md bg-[#00cca7] inline-block rounded-md py-1 px-3 uppercase font-medium">Vegan</span>
           <p class="meal-tittle text-4xl font-semibold py-5">Avocado Salad</p>
           <ul class="meal-list flex flex-col gap-4 text-[#777]">
-            <li class="meal-atribute text-2xl flex items-center gap-2"><i class="fa-solid fa-fire"></i><strong>400</strong> calories</span></li>
-            <li class="meal-atribute text-2xl flex items-center gap-2"><i class="fa-solid fa-heart-pulse"></i><span>NutriScore <strong>93</strong></span></li>
-            <li class="meal-atribute text-2xl flex items-center gap-2"><i class="fa-solid fa-star"></i><span><strong>4.8</strong> rating (445)</span></li>
+            <li class="meal-atribute text-xl flex items-center gap-2"><i class="fa-solid fa-fire"></i><strong>400</strong> calories</span></li>
+            <li class="meal-atribute text-xl flex items-center gap-2"><i class="fa-solid fa-heart-pulse"></i><span>NutriScore <strong>93</strong></span></li>
+            <li class="meal-atribute text-xl flex items-center gap-2"><i class="fa-solid fa-star"></i><span><strong>4.8</strong> rating (445)</span></li>
           </ul>
         </div>
       </div>
 
+      <!-- Col 3 -->
       <div class="meal-container p-16 ">
         <h3 class="meal-tittle text-4xl font-bold mb-5">Works with any diet</h3>
-        <ul class="diet-list meal-list flex flex-col gap-5 content-center text-2xl text-[#777]">
+        <ul class="diet-list meal-list flex flex-col gap-5 content-center text-xl text-[#777]">
           <li class="diet-item flex items-center gap-4"><i class="fa-solid fa-circle-check" style="color:rgb(0, 192, 0)"></i><span>Vegetarian</span></li>
           <li class="diet-item flex items-center gap-4"><i class="fa-solid fa-circle-check" style="color:rgb(0, 192, 0)"></i><span>Vegan</span></li>
           <li class="diet-item flex items-center gap-4"><i class="fa-solid fa-circle-check" style="color:rgb(0, 192, 0)"></i><span>Pescatarian</span></li>
@@ -185,6 +193,7 @@
       <h2 class="heading-secondary text-5xl font-bold tracking-tight">Eat well without breaking the bank</h2>
     </div>
 
+      <!-- Card 1 -->
     <div class="container grid grid-cols-2 gap-20 items-center justify-items-center">
       <div class="pricing-plan justify-self-end rounded-2xl w-80 h-96 text-center transition-all overflow-hidden shadow-2xl hover:scale-105 flex flex-col items-center justify-center">
         <div class="flex flex-col items-center justify-center p-4">
@@ -203,6 +212,7 @@
       </div>
       </div>
 
+      <!-- Card 2 -->
       <div class="pricing-plan justify-self-start rounded-2xl w-80 h-96 text-center transition-all relative overflow-hidden shadow-2xl hover:scale-105 flex flex-col items-center justify-center">
         <div class="flex flex-col items-center justify-center p-4 ">
         <p class="starter font-semibold text-2xl uppercase mb-5 text-[#EC8600]">Complete</p>
@@ -229,21 +239,29 @@
 
     <!-- SECTION FEATURE -->
     <section class="container grid grid-cols-4 gap-5 mb-20">
+
+      <!-- Col 1 -->
       <div class="feature flex flex-col items-start justify-start gap-3 p-4">
         <i class="fa-solid fa-infinity featured-icon fa-3x bg-orange-100 p-6 rounded-3xl hover:bg-orange-200"></i>
         <p class="feature-title font-bold text-3xl tracking-tight">Never cook again</p>
         <p class="feature-text">Our subscription cover 365 day per year, even including holidays.</p>
       </div>
+
+      <!-- Col 2 -->
       <div class="feature flex flex-col items-start justify-start gap-3 p-4">
         <i class="fa-regular fa-lemon featured-icon fa-3x bg-orange-100 p-6 rounded-3xl hover:bg-orange-200"></i>
         <p class="feature-title font-bold text-3xl tracking-tight">Local and organic</p>
         <p class="feature-text">Our cooks only use local, fresh, and organic products to prepare your meals.</p>
       </div>
+
+      <!-- Col 3 -->
       <div class="feature flex flex-col items-start justify-start gap-3 p-4">
         <i class="fa-solid fa-recycle featured-icon fa-3x bg-orange-100 p-6 rounded-3xl hover:bg-orange-200"></i></i>
         <p class="feature-title font-bold text-3xl tracking-tight">No waste</p>
         <p class="feature-text">All our partners only use reusable containers to package all your meals.</p>
       </div>
+
+      <!-- Col 4 -->
       <div class="feature flex flex-col items-start justify-start gap-3 p-4">
         <i class="fa-regular fa-circle-pause featured-icon fa-3x bg-orange-100 p-6 rounded-3xl hover:bg-orange-200"></i>
         <p class="feature-title font-bold text-3xl tracking-tight">Pause anytime</p>
@@ -252,38 +270,44 @@
     </section>
 
   <!-- SECTION CTA -->
-  <section class="section-cta" id="cta">
-    <div class="cta-container">
-      <div class="cta">
-        <div class="cta-text-box">
-          <h2 class="heading-secondary">Get your first meal for FREE!</h2>
-          <p class="cta-text">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can
-            cancel or pause anytime and the first meal is on us!</p>
-        </div>
+  <section class="section-cta mb-20" id="cta">
+    <div class="bg-container cta-container max-w-[130rem] px-12 mx-auto relative overflow-hidden"> 
+      <div class="bg-img cta shadow-2xl rounded-xl text-white">
+        <div class="bg-overlay absolute bg-[0, 0, 0, 0.5]"></div>
+        <div class="bg-content cta-text-box p-24">
+          <h2 class="heading-secondary text-7xl font-bold tracking-tight mb-8 uppercase">Get your first meal for FREE!</h2>
+          <p class="cta-text text-xl leading-7">Healthy, tasty and hassle-free meals are waiting for you. Start eating well today.</p> 
+          <p class="cta-text text-xl mb-8 leading-7">You can cancel or pause anytime and the first meal is on us!</p>
 
-        <div class="cta-form-box">
-          <form class="cta-form">
-            <label for="name">Full name:</label>
-            <input class="input" type="text" id="fname" required><br><br>
+          <form class="cta-form grid grid-cols-2 gap-x-12 gap-y-8">
+            <div>
+              <label for="full-name" class="block font-medium mb-1">Full name</label>
+              <input class="input bg-[#fdf2e9] rounded-md border-none text-sm w-full p-2 text-[#777]" type="text" id="full-name" placeholder="Paul Smith" required>
+            </div>
 
-            <label for="email">Email adress:</label>
-            <input class="input" type="email" id="email" required><br><br>
+            <div>
+              <label for="email" class="block font-medium mb-1">Email adress</label>
+              <input class="input bg-[#fdf2e9] rounded-md border-none text-sm w-full p-2 text-[#777]" type="email" id="email" placeholder="example@gmail.com" required>
+            </div>
 
-            <label for="select-where">Where did you find us:</label>
-            <select id="select-where" required>
-              <option value="friends">Friend or Family</option>
-              <option value="youtube">Youtube</option>
-              <option value="facebook">Facebook</option>
-              <option value="instagram">Instagram</option>
-              <option value="google">Google</option>
-              <option value="others">Others</option>
-            </select>
+            <div>
+              <label for="select-where" class="block font-medium mb-1">Where did you find us:</label>
+              <select id="select-where" class="bg-[#fdf2e9] rounded-md border-none text-sm w-full p-2 text-[#777]">
+                <option value="friends">Friend or Family</option>
+                <option value="youtube">Youtube</option>
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="google">Google</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+            <button type="button" class="btn-start btn-cta inline-block self-end rounded-md border-none font-2xl font-semibold bg-[#45260a] text-white p-4">Sign up Now!</button>
           </form>
-          <a href="#" class="btn-start btn-cta">Sign up Now!</a>
         </div>
       </div>
     </div>
   </section>
+</main>
 
   <!-- FOOTER -->
   <footer class="footer">
